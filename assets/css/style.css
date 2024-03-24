@@ -1,0 +1,233 @@
+
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*--------- Navigation Start -----------*/
+.navbar{
+	background-color: #0C0C0C!important;
+}
+
+.navbar .navbar-brand{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar .navbar-brand .lastName{
+	color: #83C2FE;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	color: white;
+	padding: 12px 14px;
+	font-size: 16px;
+}
+
+#contactBtn{
+	border: 1px solid #83C2FE;
+	padding: 6px 14px;
+}
+/*-------- Navigation End --------*/
+
+
+/*------- Banner Area Start --------*/
+.banner-area{
+	width: 100%;
+	height: 60vh;
+	background-image: url('../../assets/images/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #0C0C0C;
+	opacity: .8; 
+}
+
+.banner-area .banner-content{
+	
+}
+
+.banner-area .banner-content h1 .last-name{
+	color: #83C2FE;
+}
+/*------- Banner Area End --------*/
+
+
+
+/*------- Profile Area Start --------*/
+.about-area{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0C0C0C;
+}
+
+.about-area .profile-photo{
+	width: 250px;
+	height: 250px;
+	border: 4px solid #83C2FE;
+	background-image: url('../../assets/images/sumi.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+}
+.about-area .name{
+	color: #83C2FE;
+	margin: 0;
+}
+.about-area .designation{
+	color: #83C2FE;
+}
+.about-area  .social-link{
+	border-bottom: 1px solid #83C2FE;
+	padding-bottom: 8px;
+}
+.about-area  .social-link a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 8px;
+}
+
+.bi-facebook{
+	color: #316FF6;
+}
+.bi-whatsapp{
+	color:  #075e54;
+}
+.bi-instagram{
+	color: #fccc63;
+}
+.bi-linkedin{
+	color: #0077b5;
+}
+
+.about-area .about-me p{
+	text-align: justify;
+	font-size: 16px;
+}
+/*------- About Area End --------*/
+
+
+/*------- Service Area Start --------*/
+.service-area{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0C0C0C;
+}
+
+.service-area .heading{
+	border-bottom: 1px solid #83C2FE;
+	margin-bottom: 10px; 
+}
+.service-area .card{
+	border: 2px solid white;
+	margin-top: 15px;
+	height: 380px;
+}
+.service-area .card:hover{
+	border-color: #83C2FE;
+	transition: .6s;
+}
+.service-area .card .card-body .icon span i{
+	font-size: 50px;
+	color: #83C2FE;
+}
+/*------- Service Area End --------*/
+
+
+/*------- Skill Area Start --------*/
+.skill-area{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0C0C0C;
+}
+
+.skill-area .heading{
+	border-bottom: 1px solid #83C2FE;
+	margin-bottom: 10px; 
+}
+
+.skill-area label{
+	color: white;
+}
+
+/*------- Skill Area End --------*/
+
+
+/*------- Contact Area Start --------*/
+.contact-area{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0C0C0C;
+}
+
+.contact-area .heading{
+	border-bottom: 1px solid #83C2FE;
+	margin-bottom: 10px; 
+}
+.contact-area form label{
+	color: white;
+}
+
+.contact-area form input{
+	border-radius: 0;
+}
+
+.contact-area form textarea{
+	border-radius: 0;
+}
+
+/*------- Contact Area End --------*/
+
+
+/*------- Footer Area Start --------*/
+footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0C0C0C;
+	border-top: 1px solid #83C2FE;
+}
+
+footer .f-heading h5{
+	color: white;
+}
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li{
+	line-height: 32px;
+	color: #B6B6B6!important;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #B6B6B6;
+}
+
+footer form input,button{
+	border-radius: 0!important;
+}
+
+footer p{
+	color: #B6B6B6;
+}
+
+
+/*------- Footer Area End --------*/
